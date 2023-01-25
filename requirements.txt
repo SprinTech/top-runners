@@ -1,0 +1,4 @@
+pandas==1.5.2
+plotly==5.13.0
+streamlit==1.17.0
+streamlit_card==0.0.4
