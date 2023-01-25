@@ -241,6 +241,7 @@ if submitted:
         fig = px.pie(df_filtered, values="Place", names="Place",
                      title=f"<span style='font-size: 20px'>Rank repartition</span>",
                      labels="<strong>label></strong>",
+                     labels="<strong>label></strong>",
                      color_discrete_sequence=px.colors.sequential.algae)
         fig.update_traces(
             textfont_size=16,
